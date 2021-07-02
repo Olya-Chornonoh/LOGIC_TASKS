@@ -1,6 +1,6 @@
 function minAndMax(array) {
   let min = Infinity;
-let max = -Infinity;
+  let max = -Infinity;
   if (array instanceof Array) {
     for (let i = 0; i <= array.length; i++) {
       if (max < array[i]) {
@@ -13,7 +13,6 @@ let max = -Infinity;
     return {
       min,
       max,
-      };
+    };
   }
 }
-
